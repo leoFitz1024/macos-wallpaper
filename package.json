@@ -1,6 +1,6 @@
 {
-  "name": "macos-wallpaper",
-  "version": "1.0.0",
+  "name": "@xchencode/macos-wallpaper",
+  "version": "1.0.2",
   "description": "Manage the desktop wallpaper",
   "license": "MIT",
   "repository": "github:leoFitz1024/macos-wallpaper",
@@ -14,7 +14,8 @@
 	"node": ">=16"
   },
   "scripts": {
-	"test": "xo && ava && tsd"
+	"test": "xo && ava && tsd",
+	"publish-me": "npm publish --access public"
   },
   "files": [
 	"index.js",
